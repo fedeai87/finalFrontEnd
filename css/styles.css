@@ -508,6 +508,27 @@ main .parrafo-home {
 #vaciar-carrito:hover {
   background: #000;
 }
+
+.header__nav {
+  position: absolute; /* lo sacamos del flujo normal */
+  top: 10px; /* distancia desde arriba */
+  left: 50%; /* lo colocamos en el centro horizontal */
+  transform: translateX(-50%); /* lo centramos de verdad */
+}
+
+.header__nav ul {
+  list-style: none; /* sacamos los puntitos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* los links se ponen en fila */
+  gap: 20px; /* espacio entre Home y Contacto */
+}
+
+.header__nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #f7bb2b; /* podés cambiar el color */
+}
 /* -------------------------------------------------------------------------- */
 /*                                media queries                               */
 /* -------------------------------------------------------------------------- */
