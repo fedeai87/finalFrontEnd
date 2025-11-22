@@ -1,0 +1,10 @@
+[
+  { "id": "1", "nombre": "ETB", "precio": 100, "img": "images/etb.png" },
+  { "id": "2", "nombre": "blister", "precio": 50, "img": "images/blister.png" },
+  {
+    "id": "3",
+    "nombre": "boosterpack",
+    "precio": 10,
+    "img": "images/boosterpack.png"
+  }
+]

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>¡Bienvenido a Sky Pillar Store!</title>
+</head>
+
+ <header class="header">
+ <h1 class="logo-store"><img src="./images/logo.png" width="80" height="80">SKY PILLAR STORE</h1>  
+ <!-- barra de links de navegación: Inicio, Contacto, Productos, etc... -->
+  
+  <nav class="header__nav">
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="carrito-header">
+    <h2>🛒 Carrito (<span id="contador-carrito">0</span>)</h2>
+    <div id="carrito"></div>
+    <button id="vaciar-carrito">Vaciar carrito</button>
+  </div>
+    </header>
+    <main>
+      <h1 class="titulo-home">¡Bienvenido!</h1>
+      <p class="parrafo-home">
+        Si no lo tenemos, no existe... O bueno, lo conseguiremos si lo querés!
+      </p>
+
+      <section class="productos-home">
+        <h2>Últimos ingresos</h2>
+
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+          <!-- <article class="tarjeta-producto">
+            <img src="./images/ETB.png" alt="Elite Trainer Box: Mega Evolution" />
+            <h3>ETB Mega Evolution</h3>
+            <p>Precio: USD100</p>
+          </article>
+
+          <article class="tarjeta-producto">
+            <img src="./images/blister.png" alt="Blister Pack" />
+            <h3>Blister Pack: Mega Evolution</h3>
+            <p>Precio: USD50</p>
+          </article>
+
+          <article class="tarjeta-producto">
+            <img src="./images/boosterpack.png" alt="Booster Mega Evolution" />
+            <h3>Booster Mega Evolution</h3>
+            <p>Precio: USD10</p>
+          </article> -->
+          <section class="carrito">
+    <div id="carrito"></div>
+</section>
+          </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Seguinos en nuestras redes sociales para no perderte nada!!!</p>
+      <nav>
+        <ul>
+          <li><img src="./images/instagram.png" alt="Instagram"></li>
+          <li><img src="./images/tik-tok.png" alt="Tiktok"></li>
+          <li><img src="./images/gorjeo.png" alt="X"></li>
+          <li><img src="./images/facebook.png" alt="Facebook"></li>
+          <li><img src="./images/youtube.png" alt="YouTube"></li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- Enlazo el js antes del cierre del body -->
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
