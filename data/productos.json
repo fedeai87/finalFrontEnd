@@ -1,5 +1,5 @@
 [
-  { "id": "1", "nombre": "ETB", "precio": 100, "img": "images/etb.png" },
+  { "id": "1", "nombre": "ETB", "precio": 100, "img": "images/ETB.png" },
   { "id": "2", "nombre": "blister", "precio": 50, "img": "images/blister.png" },
   {
     "id": "3",
